@@ -1,0 +1,38 @@
+body {
+  background-color: #f2f1f0;
+  color: #504C44; }
+  body :visited, body a {
+    color: #504C44;
+    text-decoration: none; }
+  body li {
+    list-style-type: none;
+    padding: 0 20px; }
+
+h1 {
+  font-family: 'kingredregular'; }
+
+.main-navigation, .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0; }
+
+.custom-logo-link > img {
+  object-fit: contain;
+  height: 75px;
+  max-width: min-content;
+  padding: 0 40px; }
+
+.menu {
+  text-transform: uppercase;
+  font-family: 'nowregular';
+  font-size: 13px; }
+
+.site-title {
+  font-family: 'kingredregular';
+  padding: 0 40px; }
+  .site-title a {
+    text-decoration: none; }
+
+/*# sourceMappingURL=header.css.map */

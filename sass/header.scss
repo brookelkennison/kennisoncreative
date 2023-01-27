@@ -1,0 +1,47 @@
+@import 'utilities/variables';
+
+body {
+	background-color: rgba(242, 241, 240, 1);
+	color: $dark-grey;
+	& :visited, a {
+		color: $dark-grey;
+        text-decoration: none;
+	}
+    li {
+        list-style-type: none;
+        padding: 0 20px;
+    }
+}
+
+h1 {
+	font-family: 'kingredregular';
+}
+
+.main-navigation, .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.custom-logo-link > img{
+    object-fit: contain;
+    height: 75px;
+    max-width: min-content;
+    padding: 0 40px;
+}
+
+.menu {
+    text-transform: uppercase;
+    font-family: 'nowregular';
+    font-size: 13px;
+}
+
+.site-title {
+	font-family: 'kingredregular';
+    padding: 0 40px;
+	a {
+		text-decoration: none;
+	}
+}
