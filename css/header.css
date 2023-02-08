@@ -1,4 +1,14 @@
+h1 {
+  font-family: 'kingredregular'; }
+
+h2, h3, h4 {
+  font-family: 'nowregular'; }
+
+h4, h5, h6 {
+  font-family: 'lovelace_textregular'; }
+
 body {
+  margin: 0;
   background-color: #f2f1f0;
   color: #504C44; }
   body :visited, body a {
@@ -8,8 +18,8 @@ body {
     list-style-type: none;
     padding: 0 20px; }
 
-h1 {
-  font-family: 'kingredregular'; }
+.site-header {
+  margin-top: 20px; }
 
 .main-navigation, .menu {
   display: flex;
@@ -34,5 +44,40 @@ h1 {
   padding: 0 40px; }
   .site-title a {
     text-decoration: none; }
+
+.main h1 {
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  object-position: top;
+  text-align: center;
+  color: #f2f1f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 57px; }
+  @media (max-width: 550px) {
+    .main h1 {
+      font-size: 24px; } }
+.main .callToAction {
+  position: absolute;
+  top: 448px;
+  background: #f2f1f0;
+  width: 270px;
+  margin-left: 75px;
+  border-top: 6px #A19CAF solid;
+  border-bottom: 6px #A19CAF solid;
+  border-radius: 4%; }
+  .main .callToAction h2, .main .callToAction p {
+    padding: 20px; }
+.main .pastClients {
+  margin-left: 370px;
+  height: 150px;
+  border-bottom: 1px solid #555B74; }
+.main h2 {
+  font-size: 20px;
+  font-weight: bold; }
+.main h6 {
+  font-size: 16px; }
 
 /*# sourceMappingURL=header.css.map */

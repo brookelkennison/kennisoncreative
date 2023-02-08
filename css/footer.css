@@ -1,0 +1,30 @@
+.site-footer {
+  color: #f2f1f0;
+  background-color: #1d2327; }
+  .site-footer li > a {
+    color: #f2f1f0; }
+  .site-footer .main-navigation {
+    border-bottom: #f2f1f0 1px dotted; }
+
+.instagram {
+  right: 75px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .instagram h4 {
+    transform: rotate(270deg);
+    color: #f2f1f0;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    left: 75px;
+    position: relative; }
+  .instagram #sb_instagram {
+    width: auto;
+    margin: 0; }
+  .instagram #sbi_images div, .instagram #sbi_images a {
+    width: 200px !important;
+    height: 200px !important; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,39 @@
+@import 'utilities/variables';
+
+.site-footer {
+    color: $off-white;
+    background-color: $almost-black;
+    & li > a {
+        color: $off-white
+    }
+    & .main-navigation {
+        border-bottom: $off-white 1px dotted;
+    }
+}
+
+.instagram {
+    right: 75px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & h4 {
+        transform: rotate(270deg);
+        color: $off-white;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 0;
+        left: 75px;
+        position: relative;
+    }
+    #sb_instagram {
+        width: auto;
+        margin: 0;
+    }
+    #sbi_images {
+        & div, a {
+            width: 200px !important;
+            height: 200px !important;
+        }
+    } 
+}

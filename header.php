@@ -17,9 +17,13 @@
             <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
             <div class="site-header__menu group">
                 <nav class="main-navigation">
-                    <?php wp_nav_menu(array(
-                        'theme_location' => 'nav-menu-left'
-                    ));
+
+                    <?php
+                    if (has_nav_menu('nav-menu-left')) {
+                        wp_nav_menu(array(
+                            'theme_location' => 'nav-menu-left'
+                        ));
+                    }
                     print wp_title();
                     if (has_custom_logo()) {
                         echo the_custom_logo();
@@ -32,9 +36,11 @@
                         </h1>
                     <?php
                     }
-                    wp_nav_menu(array(
-                        'theme_location' => 'nav-menu-right'
-                    ));
+                    if (has_nav_menu('nav-menu-right')) {
+                        wp_nav_menu(array(
+                            'theme_location' => 'nav-menu-right'
+                        ));
+                    }
                     ?>
 
                 </nav>
