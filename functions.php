@@ -3,6 +3,7 @@ if (!is_admin()) {
     wp_enqueue_style('lilac_pig_main_styles', get_theme_file_uri('/build/index.css'));
 }
 add_theme_support('custom-logo');
+add_theme_support('post-thumbnails');
 
 function register_my_menus()
 {

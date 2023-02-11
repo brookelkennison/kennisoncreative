@@ -1,0 +1,57 @@
+.main h1 {
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  object-position: top;
+  text-align: center;
+  color: #f2f1f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 57px; }
+  @media (max-width: 550px) {
+    .main h1 {
+      font-size: 24px; } }
+.main .callToAction {
+  position: absolute;
+  top: 448px;
+  background: #f2f1f0;
+  width: 270px;
+  margin-left: 75px;
+  border-top: 6px #A19CAF solid;
+  border-bottom: 6px #A19CAF solid;
+  border-radius: 4%; }
+  .main .callToAction h2, .main .callToAction p {
+    padding: 20px; }
+.main .pastClients {
+  margin-left: 370px;
+  height: 150px;
+  border-bottom: 1px solid #555B74; }
+.main h2 {
+  padding: 0;
+  top: 45px;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold; }
+.main h6 {
+  font-size: 16px; }
+.main .blog {
+  text-align: center; }
+  .main .blog .featured-posts {
+    display: flex;
+    justify-content: center; }
+    .main .blog .featured-posts .post {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main .blog .featured-posts .post h3, .main .blog .featured-posts .post p {
+        color: #504C44;
+        max-width: 250px; }
+      .main .blog .featured-posts .post img {
+        height: 325px;
+        object-fit: cover;
+        width: 250px;
+        text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
